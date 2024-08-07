@@ -28,3 +28,6 @@ variable "public_subnets_cidr" {
 variable "private_subnets_cidr" {
   default = ["10.0.11.0/24", "10.0.12.0/24"]
 }
+
+
+# here variables.tf is your own naming you need to give your required variables here

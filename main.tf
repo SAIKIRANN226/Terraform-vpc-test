@@ -7,10 +7,10 @@ module "roboshop" {
 
   # the above line from 3 to 6 are mandatory to pass here
 
-  # public subnet
+  # public subnet passing here is mandatory
   public_subnets_cidr = var.public_subnets_cidr
 
-  # private subnet
+  # private subnet passing here is mandatory
   private_subnets_cidr = var.private_subnets_cidr
 
 }

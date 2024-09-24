@@ -1,5 +1,5 @@
 module "roboshop" {
-  #source = "git"::https://github.com/daws-76s/terraform-aws-vpc.git?ref=main"  this means referring from the open source which is is internet
+  #source = "git"::https://github.com/daws-76s/terraform-aws-vpc.git?ref=main"  This means referring from the open source which is is internet
   source = "../tterraform-aws-vpc"
   project_name = var.project_name
   environment = var.environment

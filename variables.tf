@@ -30,4 +30,4 @@ variable "private_subnets_cidr" {
 }
 
 
-# here variables.tf is your own naming you need to give your required variables here
+# Here variables.tf is your own naming you need to give your required variables here
